@@ -8,4 +8,5 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 vim -c PlugInstall
 
+source ~/.bashrc
 
