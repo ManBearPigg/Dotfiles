@@ -45,4 +45,4 @@ alias ls='ls --color=auto'
 alias la='ls -a'
 alias clip='xclip -sel clip <'
 alias lwormhole='wormhole --transit-helper tcp:192.168.0.28:4001'
-
+alias tmux='tmux -u' # emojis work
