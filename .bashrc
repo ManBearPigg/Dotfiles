@@ -26,7 +26,7 @@ get_last_directory() {
         echo "$last_dir"
     fi
 }
-PS1="${GREEN}sammy ${RED}💩${YELLOW}\$(get_last_directory) ${RESET}> "
+PS1="${GREEN}sammy ${RED}🐋 ${YELLOW}\$(get_last_directory) ${RESET}> "
 
 
 # Encrypt
@@ -46,3 +46,4 @@ alias la='ls -a'
 alias clip='xclip -sel clip <'
 alias lwormhole='wormhole --transit-helper tcp:192.168.0.28:4001'
 alias tmux='tmux -u' # emojis work
+alias bat='batcat --paging=never --style=plain' # on arch i needed /usr/bin/bat not batcat
