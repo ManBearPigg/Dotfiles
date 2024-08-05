@@ -3,10 +3,11 @@ mv .bashrc ~/.bashrc
 mv .vimrc ~/.vimrc
 mv .tmux.conf ~/.tmux.conf
 
+source ~/.bashrc
+
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 vim -c PlugInstall
 
-source ~/.bashrc
 
