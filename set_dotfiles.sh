@@ -4,9 +4,9 @@
 #-----------------------------------------------------------
 
 mv ~/.bashrc ~/.old_bashrc
-mv .bashrc ~/.bashrc
-# mv .vimrc ~/.vimrc
-mv .tmux.conf ~/.tmux.conf
+mv "$(dirname "$0")/.bashrc" ~/.bashrc
+#mv "$(dirname "$0")/.vimrc" ~/.vimrc
+mv "$(dirname "$0")/.tmux.conf" ~/.tmux.conf
 
 source ~/.bashrc
 
