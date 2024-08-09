@@ -45,5 +45,5 @@ alias ls='ls --color=auto'
 alias la='ls -a'
 alias clip='xclip -sel clip <'
 alias lwormhole='wormhole --transit-helper tcp:192.168.0.28:4001'
-alias tmux='tmux -u' # emojis work
+alias tmux='tmux -u' # makes emojis work very important lol
 alias bat='batcat --paging=never --style=plain' # on arch i needed /usr/bin/bat not batcat
