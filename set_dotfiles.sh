@@ -1,3 +1,4 @@
+#!/bin/bash
 #-----------------------------------------------------------
 # Dotfiles [.bashrc, .tmux.conf, .vimrc]
 # I'm trying neovim with NVChad. Keep the vim stuff in case.
